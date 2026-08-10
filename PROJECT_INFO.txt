@@ -1,0 +1,8 @@
+Commute Time Analysis – Abuja
+Author: Rufai Ahmad Mohammed
+Programme: Data Analysis NextGen Cohort
+Institute: Omni Digital Media Institute
+Cohort: DA-14
+Dataset size: 250 records
+Average commute time: 41.81 minutes
+Average transportation fare: NGN 3,175
