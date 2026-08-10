@@ -54,6 +54,7 @@ Weather
 Weather condition
 
 🛠️ Tools & Technologies
+
 Microsoft Excel — initial dataset preparation.
 Python / Pandas — data inspection, cleaning, validation and descriptive analysis.
 Google Colab — Python working environment.
