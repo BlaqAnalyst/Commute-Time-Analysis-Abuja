@@ -31,34 +31,59 @@ Document the analysis in a professional technical report.
 The dataset contains 250 commute records with fields including:
 
 Field
+
 Description
+
 Trip_ID
+
 Unique identifier for each trip
+
 Date
+
 Date of the journey
+
 Origin
+
 Trip starting location
+
 Destination
+
 Trip destination
+
 Departure_Time
+
 Journey start time
+
 Transport_Mode
+
 Mode of transportation
+
 Commute_Time_min
+
 Commute duration in minutes
+
 Fare_NGN
+
 Transportation fare in Nigerian Naira
+
 Traffic_Level
+
 Traffic condition
+
 Weather
+
 Weather condition
 
 🛠️ Tools & Technologies
 
 Microsoft Excel — initial dataset preparation.
+
 Python / Pandas — data inspection, cleaning, validation and descriptive analysis.
+
 Google Colab — Python working environment.
+
 Microsoft Power BI — dashboard and data visualization.
+
 GitHub — portfolio documentation and project publishing.
 
 🔄 Project Workflow
@@ -82,17 +107,29 @@ GitHub Portfolio
 📊 Key Findings
 
 Average Commute Time
+
 41.81 minutes
+
 Average Transportation Fare
+
 ₦3,174.65
+
 Commute Time by Traffic Level
+
 Traffic Level
+
 Average Commute Time
+
 Low
+
 33.15 min
+
 Medium
+
 40.28 min
+
 High
+
 50.21 min
 
 The analysed records show that higher traffic levels were associated with longer average commute times.
@@ -247,7 +284,7 @@ Publishing an appropriate public Power BI dashboard link.
 
 Rufai Ahmad Mohammed
 
-Data Analysis NextGen Cohort – DA-14 Omni Digital Media Institute
+Data Analysis NextGen Cohort – DA-14Omni Digital Media Institute
 
 This repository demonstrates a practical data analytics workflow for turning transportation data into clear, useful insights.
 
