@@ -1,291 +1,71 @@
-🚦 Commute Time Analysis – Abuja
+# 🚗 Commute Time Analysis – Abuja
 
-Data Analyst Portfolio Project | Power BI & Python/Pandas
+## 📊 Data Analyst Portfolio Project
 
+> **Analyzing Abuja's commuting patterns, transportation costs, traffic conditions, and transport-mode usage using Python, Pandas, Excel, and Microsoft Power BI.**
 
+---
 
-👤 About the Project
+## 👨‍💻 About the Project
 
-This project analyses 250 Abuja commute records to understand commuting patterns and identify factors associated with travel time, transportation cost, traffic conditions, weather, and transport-mode usage.
+This project analyzes **250 Abuja commute records** to understand commuting patterns, average travel duration, transportation costs, traffic conditions, weather conditions, and transport-mode usage.
 
-The project was completed as part of the Data Analysis NextGen Cohort (DA-14) at Omni Digital Media Institute.
+The project demonstrates an end-to-end data analytics workflow, from **data preparation and cleaning to exploratory analysis and interactive dashboard development**.
 
-Author: Rufai Ahmad MohammedProject Topic: Commute Time AnalysisLocation: Abuja, Nigeria
+The analysis was carried out using:
 
-🎯 Project Objectives
+- Microsoft Excel
+- Python
+- Pandas
+- Google Colab
+- Microsoft Power BI
 
-Examine average commute time across traffic levels.
+---
 
-Compare average transportation fares across transport modes.
+# 🎯 Project Objectives
 
-Understand transport-mode frequency.
+The main objectives of this project were to:
 
-Identify patterns in commuting conditions.
+- Analyze average commute time in Abuja.
+- Identify transportation modes commonly used by commuters.
+- Analyze average transportation fares.
+- Examine the relationship between traffic levels and commute duration.
+- Compare transportation costs across different transport modes.
+- Explore the distribution of transportation modes.
+- Present the findings through an interactive Power BI dashboard.
 
-Present findings through an interactive Microsoft Power BI dashboard.
+---
 
-Document the analysis in a professional technical report.
+# 🗂️ Project Structure
 
-🗂️ Dataset
-
-The dataset contains 250 commute records with fields including:
-
-Field
-
-Description
-
-Trip_ID
-
-Unique identifier for each trip
-
-Date
-
-Date of the journey
-
-Origin
-
-Trip starting location
-
-Destination
-
-Trip destination
-
-Departure_Time
-
-Journey start time
-
-Transport_Mode
-
-Mode of transportation
-
-Commute_Time_min
-
-Commute duration in minutes
-
-Fare_NGN
-
-Transportation fare in Nigerian Naira
-
-Traffic_Level
-
-Traffic condition
-
-Weather
-
-Weather condition
-
-🛠️ Tools & Technologies
-
-Microsoft Excel — initial dataset preparation.
-
-Python / Pandas — data inspection, cleaning, validation and descriptive analysis.
-
-Google Colab — Python working environment.
-
-Microsoft Power BI — dashboard and data visualization.
-
-GitHub — portfolio documentation and project publishing.
-
-🔄 Project Workflow
-
-Raw Dataset
-     ↓
-Data Inspection
-     ↓
-Data Cleaning & Validation
-     ↓
-Descriptive Analysis
-     ↓
-Power BI Visualization
-     ↓
-Dashboard Insights
-     ↓
-Technical Report
-     ↓
-GitHub Portfolio
-
-📊 Key Findings
-
-Average Commute Time
-
-41.81 minutes
-
-Average Transportation Fare
-
-₦3,174.65
-
-Commute Time by Traffic Level
-
-Traffic Level
-
-Average Commute Time
-
-Low
-
-33.15 min
-
-Medium
-
-40.28 min
-
-High
-
-50.21 min
-
-The analysed records show that higher traffic levels were associated with longer average commute times.
-
-Average Fare by Transport Mode
-
-Transport Mode
-
-Average Fare
-
-Bolt
-
-₦7,040.29
-
-Car
-
-₦3,603.45
-
-Taxi
-
-₦1,102.46
-
-Bus
-
-₦985.29
-
-Within this dataset, Bus had the lowest average fare, while Bolt had the highest average fare.
-
-📈 Power BI Dashboard
-
-The Power BI dashboard includes:
-
-Average Commute Time KPI
-
-Average Transportation Fare KPI
-
-Average Commute Time by Traffic Level
-
-Average Fare by Transport Mode
-
-Transport Mode Frequency
-
-Interactive filters/slicers
-
-Project screenshots are available in the Screenshots folder.
-
-You can later add your main dashboard image here:
-
-![Power BI Dashboard](./Screenshots/dashboard.png)
-
-🧹 Data Preparation & Analysis
-
-The documented analysis included:
-
-Dataset structure inspection.
-
-Data-type checking.
-
-Missing-value checking.
-
-Duplicate checking.
-
-Conversion of relevant fields to appropriate data types.
-
-Duplicate removal where applicable.
-
-Review of commute-time and fare fields.
-
-Grouping by traffic level and transport mode.
-
-Calculation of averages and frequencies.
-
-The documented validation stage confirmed 250 records, with no missing values or duplicate records identified.
-
-💡 Practical Insights
-
-Traffic affects commute duration. Higher traffic levels corresponded with higher average commute times in the analysed data.
-
-Transportation costs vary considerably by mode. Bolt had the highest average fare among the listed modes.
-
-Bus was the most affordable mode in the dataset.
-
-Power BI makes the patterns easier to interpret by converting the underlying records into KPIs and comparative visualizations.
-
-📁 Repository Structure
-
+```text
 Commute-Time-Analysis-Abuja/
 │
 ├── Dataset/
+│   └── README.md
+│
 ├── Python/
+│   └── README.md
+│
 ├── PowerBI/
+│   └── README.md
+│
 ├── Screenshots/
+│   ├── average_commute_time_by_traffic.png
+│   ├── average_fare_by_transport_mode.png
+│   ├── Data Cleaning Process.png
+│   ├── Data structure (df.info) output.png
+│   ├── Dataset Preview (First Five Rows).png
+│   ├── Descriptive statistics.png
+│   ├── Distribution of transport modes.png
+│   ├── power BI Dashboard.png
+│   └── transport_mode_frequency.png
+│
 ├── Report/
+│   └── Technical Report
+│
 ├── Source_Materials/
+│   └── Original_Project_Files.rar
+│
 ├── PROJECT_INFO.txt
-├── README.md
-└── .gitignore
-
-📄 Project Report
-
-The complete technical report is available in the Report folder.
-
-🧠 Skills Demonstrated
-
-Data cleaning and validation
-
-Exploratory data analysis
-
-Descriptive statistics
-
-Data aggregation
-
-Data visualization
-
-Microsoft Excel
-
-Python
-
-Pandas
-
-Google Colab
-
-Microsoft Power BI
-
-Dashboard development
-
-Business insight generation
-
-Technical reporting
-
-GitHub documentation
-
-🚀 Future Improvements
-
-Potential extensions include:
-
-Using a larger real-world Abuja transportation dataset.
-
-Adding GPS/location-based analysis.
-
-Analysing commute patterns by time of day.
-
-Studying weather impact on commute time.
-
-Comparing weekday and weekend travel.
-
-Adding route-level performance indicators.
-
-Publishing an appropriate public Power BI dashboard link.
-
-👨‍💻 Author
-
-Rufai Ahmad Mohammed
-
-Data Analysis NextGen Cohort – DA-14Omni Digital Media Institute
-
-This repository demonstrates a practical data analytics workflow for turning transportation data into clear, useful insights.
-
-GitHub: BlaqAnalyst
+└── README.md
